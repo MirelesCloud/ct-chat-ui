@@ -5,9 +5,6 @@ import { routes } from './routes.js'
 import { createRouter, createWebHistory } from 'vue-router'
 import { makeServer } from "./server"
 
-
-//Vue.config.productionTip = false
-
 if (process.env.NODE_ENV === "development") {
   makeServer()
 }
