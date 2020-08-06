@@ -1,24 +1,18 @@
 <template>
-  <div class=" relative w-1/2 text-gray-600 bg-gray-200 px-1 py-1 m-2">
-    <div class="w-full flex flex-col">
-      <div class="border-b flex px-6 py-2 items-center mb-2">
+  <div class=" relative w-1/2 text-gray-600 bg-gray-100 px-1 py-1 m-1">
+    <div class="w-full flex flex-col ">
+      <div class=" flex px-6 py-2 bg-white shadow-xs items-center mb-2">
         <div class="flex flex-col">
-          <h3 class="text-gray-darkest text-md mb-1 font-extrabold">Chatting</h3>
-          <div class="text-gray font-thin text-sm">
-            ay caramba
-          </div>
-        </div>
-        <div class="ml-auto hidden md:block">
-          <input type="search" placeholder="Search" class="border border-gray rounded-lg p-2"/>
+          <img  class="h-20 w-auto" src="../assets/cart-text.png" alt="logo"/>
         </div>
       </div>
 
       <!-- Message Bubble -->
-      <div class="px-6 py-2 flex-1 overflow-scroll-x bg-blue-100 mb-1 rounded-lg">
+      <div class="px-6 py-2 flex-1 overflow-scroll-x  w-60 mb-1 rounded-lg float-left">
         <div class="flex items-start mb-4">
           <div class="flex flex-col">
             <div class="flex items-end">
-              <span class="font-bold text-md mr-2">Charlie Brown</span>
+              <span class="font-bold text-md mr-2">Me</span>
               <span class="text-gray text-xs font-light">12:45pm</span>
             </div>
             <p class="font-light text-md text-gray-darkest pt-1">What do you think, how does this look???</p>
@@ -27,7 +21,7 @@
       </div> 
       <!-- Message Bubble End -->   
       <!-- Message Bubble -->
-      <div class="px-6 py-2 flex-1 overflow-scroll-x bg-blue-100 mb-1 rounded-lg">
+      <div class="px-6 py-2 flex-1 overflow-scroll-x bg-blue-500 text-white mb-1 rounded-lg float-left">
         <div class="flex items-start mb-4">
           <div class="flex flex-col">
             <div class="flex items-end">
@@ -40,19 +34,22 @@
       </div> 
       <!-- Message Bubble End -->   
       <!-- Message Bubble -->
-      <div class="px-6 py-2 flex-1 overflow-scroll-x bg-blue-100 mb-1 rounded-lg">
+      <div class="px-6 py-2 flex-1 overflow-scroll-x mb-1 rounded-lg">
         <div class="flex items-start mb-4">
           <div class="flex flex-col">
             <div class="flex items-end">
-              <span class="font-bold text-md mr-2">Snoopy</span>
+              <span class="font-bold text-md mr-2">Me</span>
               <span class="text-gray text-xs font-light">12:45pm</span>
             </div>
             <p class="font-light text-md text-gray-darkest pt-1">meh...</p>
           </div>
         </div>
       </div> 
-      <!-- Message Bubble End -->   
+      <!-- Message Bubble End -->  
 
+      
+      
+ 
 
     </div>
      <form class="flex m-6   overflow-hidden absolute inset-x-0 bottom-5">

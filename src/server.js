@@ -14,37 +14,51 @@ let server = new Server({
     name: "Charlie Brown",
     email: "charliebrown@peanuts.com",
     phone: "(432) 111-4444",
-    avatar: "./assets/charlie-brown.jpg"
+    message: "About the other day",
+    time: "20m",
+   
   })
   server.create("user", { 
     name: "Snoopy",
     email: "snoopy@peanuts.com",
+    message: "Can we talk?",
+    time: "35m",
     phone: "(555) 243-3323"
    })
   server.create("user", {
     name: "Peppermint Patty",
     email: "patty@peanuts.com",
-    phone: "(555) 242-4344"
+    phone: "(555) 242-4344",
+    message: "I would like to find out more",
+    time: "1hr",
   })
   server.create("user", {
     name: "Lucy van Pelt",
     email: "lucy@peanuts.com",
-    phone: "(555) 333-4444"
+    phone: "(555) 333-4444",
+    message: "Can you tell me how this works?",
+    time: "2hrs",
   })
   server.create("user", {
     name: "Linus van Pelt",
     email: "linus@peanuts.com",
-    phone: "(555) 666-2344"
+    phone: "(555) 666-2344",
+    message: "I would like to make a purchase",
+    time: "3hrs",
   })
   server.create("user", {
     name: "Sally Brown",
     email: "sally@peanuts.com",
-    phone: "(555) 112-8955"
+    phone: "(555) 112-8955",
+    message: "Please add me to the list",
+    time: "3hrs",
   })
   server.create("user", {
     name: "Woodstock",
     email: "woodstock@peanuts.com",
-    phone: "(555) 777-9185"
+    phone: "(555) 777-9185",
+    message: "Nice to meet you",
+    time: "4hrs",
   })
   },
 
