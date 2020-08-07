@@ -2,7 +2,7 @@
   <div class="w-1/4 ext-center bg-white m-1">
       <div class="flex flex-col  p-5">
         <div class="flex flex-wrap">
-          <img class=" flex w-10 h-10 rounded-full" src="../assets/avatar2.png" alt="avatar"/>
+          <img class=" flex w-12 h-12 rounded-full" src="../assets/charlie-brown.jpg" alt="avatar"/>
           <div class="flex flex-col ml-3">
             <div class="text-xl  text-black font-semibold antialiased tracking-normal">
               Charlie Brown
@@ -11,7 +11,9 @@
               charliebrown@peanuts.com
             </div>
           </div>
-          <svg  class="h-3 w-3 ml-auto cursor-pointer" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg>
+          <svg  class="h-3 w-3 ml-auto cursor-pointer relative" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+          </svg>
         </div>
       </div>
       <hr/>

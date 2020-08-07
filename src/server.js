@@ -16,6 +16,7 @@ let server = new Server({
     phone: "(432) 111-4444",
     message: "About the other day",
     time: "20m",
+    
    
   })
   server.create("user", { 
